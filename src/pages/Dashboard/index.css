@@ -1,0 +1,50 @@
+.container--dash {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container--dash > div {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header--dashboard,
+.div--name,
+.div--tech {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ul--techs {
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+
+.ul--techs,
+.li--tech {
+  margin: 0;
+  padding: 0;
+}
+
+.li--tech {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.div--name p {
+  margin: 0;
+}
+
+.div--name p:not(:first-child) {
+  margin-left: 32px;
+}

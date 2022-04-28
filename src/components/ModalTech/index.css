@@ -1,0 +1,14 @@
+.header--modal {
+  display: flex !important;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.header--modal button {
+  font-size: 12px;
+}
+
+.header--modal h3 {
+  margin: 0;
+}

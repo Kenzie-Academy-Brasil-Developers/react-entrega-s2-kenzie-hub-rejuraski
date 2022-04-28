@@ -1,0 +1,11 @@
+header {
+  margin-bottom: 10px;
+}
+
+.register--button {
+  width: 100%;
+  color: #ff577f;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10.5px 15px;
+}
